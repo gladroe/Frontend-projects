@@ -1,7 +1,5 @@
 # [Roadmap.sh](https://roadmap.sh/projects/single-page-cv) - HTML Project
 
----
-
 ### **Single page CV to showcase your career history**
 
 In this project was required to create a single page `Curriculum Vitae` using only HTML.
