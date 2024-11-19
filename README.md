@@ -35,10 +35,10 @@ In this project was required to create a single page `Curriculum Vitae` using on
 
 #### Other Resources i used to complete this project:
 
-[Mozilla Developer](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) - Semantics
-[Ahrefs.com](https://ahrefs.com/blog/seo-meta-tags/) - Seo Meta Tags
-[Ahrefs.com](https://ahrefs.com/blog/open-graph-meta-tags/) - Open Graph Meta Tags
-[Favicon.io](https://favicon.io/) - Favicon Generator
+[Mozilla Developer](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) - Semantics <br>
+[Ahrefs.com](https://ahrefs.com/blog/seo-meta-tags/) - Seo Meta Tags <br>
+[Ahrefs.com](https://ahrefs.com/blog/open-graph-meta-tags/) - Open Graph Meta Tags <br>
+[Favicon.io](https://favicon.io/) - Favicon Generator <br>
 
 ---
 
