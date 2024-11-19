@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Resume - Junior Frontend Developer</title>
+
 		<!-- SEO Meta Tags -->
 		<meta
 			name="description"
@@ -24,36 +25,73 @@
 			property="og:description"
 			content="VC of a Junior Frontend Developer" />
 		<!-- Favicon -->
-		<link rel="stylesheet" href="css/style.css" />
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 	</head>
 
-	<body>
+	<body
+		class="main"
+		style="
+			display: flex;
+			flex-direction: column;
+			width: 700px;
+			margin: 10px;
+			padding: 50px;
+			border: 3px solid black;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+				'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			font-size: 1rem;
+			font-style: normal;
+		">
 		<header class="header">
+			<div
+				style="
+					width: 600px;
+					height: 3px;
+					background-color: black;
+				"></div>
 			<h1>Developer Name</h1>
-			<h2>Junior Frontend Developer</h2>
+			<h4 style="color: #529745">Junior Frontend Developer</h4>
 			<section class="header__contact">
-				<address>
-					123 Your Street, Your City, ST 12345
-					<a href="tel:1234567890">(123) 456-7890</a>
-					<a href="mailto:no_reply@example.com">Junior Developer</a>
+				<address style="font-style: inherit">
+					123 Your Street <br />
+					Your City, ST 12345 <br />
+					<a
+						href="tel:1234567890"
+						style="text-decoration: none; color: black"
+						>(123) 456-7890</a
+					>
+					<br />
+					<a
+						href="mailto:no_reply@example.com"
+						style="text-decoration: none; color: black"
+						>no_reply@example.com</a
+					>
 				</address>
 			</section>
 		</header>
 
-		<main class="main">
+		<main>
 			<section class="main__skills">
-				<h3 class="section__title">Skills</h3>
+				<h4 class="section__title" style="color: #529745">Skills</h4>
 				<p>
 					HTML, CSS, JavaScript, Accessibility, Figma to Design,
-					Responsive Web Design, Technical Writing, Presentation
+					Responsive Web Design, <br />
+					Technical Writing, Presentation
 				</p>
 			</section>
 
 			<section class="main__education">
-				<h3 class="section__title">Education</h3>
-				<h4>School Name, Location - Degree</h4>
-				<p>
+				<h4 class="section__title" style="color: #529745">Education</h4>
+				<h3
+					style="
+						color: #3b6ebe;
+						font-size: 1.1rem;
+						margin: 0;
+						padding: 0;
+					">
+					School Name, Location - Degree
+				</h3>
+				<p style="margin: 0">
 					Month 20xx to Month 20xx <br />
 					List of exciting things you did at university
 				</p>
@@ -62,34 +100,57 @@
 			</section>
 
 			<section class="main__experience">
-				<h3 class="section__title">Experience</h3>
+				<h4 class="section__title" style="color: #529745">
+					Experience
+				</h4>
 				<article>
-					<h2>Company Name, Location - Job Title</h2>
-					<p>Month 20xx to Month 20xx</p>
-					<ul>
+					<h2
+						style="
+							color: #3b6ebe;
+							font-size: 1.1rem;
+							margin: 0;
+							padding: 0;
+						">
+						Company Name, Location - Job Title
+					</h2>
+					<p style="margin: 0">Month 20xx to Month 20xx</p>
+					<ul style="padding-left: 20px">
 						<li>List of achievements</li>
 						<li>List of achievements</li>
 						<li>List of achievements</li>
 					</ul>
-					<p>Skills: List of skills used or gained at this company</p>
+					<p style="margin: 0">
+						Skills: List of skills used or gained at this company
+					</p>
 				</article>
 
-				<h3 class="section__title">Experience</h3>
 				<article>
-					<h2>Company Name, Location - Job Title</h2>
-					<p>Month 20xx to Month 20xx</p>
-					<ul>
+					<h2
+						style="
+							color: #3b6ebe;
+							font-size: 1.1rem;
+							margin: 0;
+							padding: 0;
+						">
+						Company Name, Location - Job Title
+					</h2>
+					<p style="margin: 0">Month 20xx to Month 20xx</p>
+					<ul style="padding-left: 20px">
 						<li>List of achievements</li>
 						<li>List of achievements</li>
 						<li>List of achievements</li>
 					</ul>
-					<p>Skills: List of skills used or gained at this company</p>
+					<p style="margin: 0">
+						Skills: List of skills used or gained at this company
+					</p>
 				</article>
 			</section>
 		</main>
 		<footer class="footer_internet">
-			<h2>Across the Internet</h2>
-			<p>Add your LinkedIn, Github profile links</p>
+			<h4 style="color: #529745; margin-top: 20px; margin-bottom: 0px">
+				Across the Internet
+			</h4>
+			<p style="margin: 0">Add your LinkedIn, Github profile links</p>
 		</footer>
 	</body>
 </html>
